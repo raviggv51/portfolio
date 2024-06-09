@@ -1,0 +1,143 @@
+/* Define the keyframes for the fade-in animation
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply the animation to the text and icon 
+.animated-text, .fa-user-circle {
+    animation: fadeIn 2s ease-in-out;
+} */
+
+/* @keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.animated-text {
+    display: inline-block;
+    animation: slideIn 1s ease-out;
+} */
+
+/* Hover effect */
+.hover-link {
+    text-decoration: none;
+}
+
+.hover-link font {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.hover-link:hover font {
+    color: #000000; /* Change text color on hover */
+    background-color: #ffffff; /* Change background color on hover */
+}
+
+
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animated-text {
+    animation: slideIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.animated-image {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Hover2 effect */
+.hover2-link {
+    text-decoration: none;
+}
+
+.hover2-link font {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.hover2-link:hover font {
+    color: #ffffff; /* Change text color on hover */
+    background-color: #000000; /* Change background color on hover */
+}
+
+.hover-effect {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #292929;
+}
+.hover-effect h4 {
+    transition: all 0.3s ease;
+}
+.hover-effect h4:hover {
+    color: #ffffff;
+    background-color: #292929;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.hover-eeffect {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #c2c0c3;
+}
+.hover-eeffect h4 {
+    transition: all 0.3s ease;
+}
+.hover-eeffect h4:hover {
+    color: #353535;
+    background-color: #c2c0c3;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+}
+.contact-info a, .contact-info font {
+    font-family: Arial, sans-serif;
+    color: #292929;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.contact-info a:hover, .contact-info font:hover {
+    color: #ff5722;
+}
+.contact-info i {
+    margin-right: 8px;
+}
+
+
+.scan-table {
+    background-color: #353535;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.scan-table img {
+    width: 200px; /* Adjust as necessary */
+}
